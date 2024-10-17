@@ -1,3 +1,5 @@
+# GitHub C++ Template
+
 # Prerequisites
 *.d
 
@@ -30,3 +32,39 @@
 *.exe
 *.out
 *.app
+
+
+# Additional C++ Project Specific Ignoring
+
+# Ignore build artifacts
+build/
+bin/
+obj/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore operating system files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore libraries and archives
+*.jar
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore dependency manager files (if using something like conan or vcpkg)
+.conan/
+vcpkg_installed/
+
+# Ignore IDE specific files
+.idea/
+*.iml
